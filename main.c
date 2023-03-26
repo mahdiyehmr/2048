@@ -1,7 +1,9 @@
+#include <stdlib.h>
 #include <stdio.h>
 #include <ncurses.h>
 #include <unistd.h>
 #include <term.h>
+
 int array[6][6];
 int komak[6][6];
 int score = 0,n = 0;
